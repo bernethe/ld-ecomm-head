@@ -9,7 +9,7 @@ const expandInputWidth = () => {
         document.querySelector('.header-xs .loyalty-plan-sm').style.display = 'none';
         document.querySelector('.header-xs .cart-quantity').style.display = 'none';
         document.querySelector('.header-xs').classList.add('expandido');
-    }, 250 );
+    }, 150 );
 };
 const colapseInputWidth = () => {
     document.querySelector('.header-xs').classList.remove('expandido');
@@ -20,7 +20,7 @@ const colapseInputWidth = () => {
         document.querySelector('.header-xs .shopping-cart-sm').style.opacity = 1;
         document.querySelector('.header-xs .loyalty-plan-sm').style.opacity = 1;
         document.querySelector('.header-xs .cart-quantity').style.opacity = 1;
-    }, 250 );
+    }, 150 );
 };
 
 document.querySelector('.header-xs .buscar-sm input[type="text"]').addEventListener('focus', expandInputWidth, !1);
